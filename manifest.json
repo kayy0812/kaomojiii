@@ -1,0 +1,25 @@
+{
+    "name": "Kaomojiii",
+    "description": "Hình ký tự đặc biệt :3 Cute",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_title": "Kaomoji Extension",
+      "default_popup": "./popup.html"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "js": ["./index.js"],
+            "matches": [
+                "*://*/*"
+            ]
+        }
+    ],
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
