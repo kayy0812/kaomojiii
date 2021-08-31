@@ -1,6 +1,6 @@
 # Kaomojiii
 
-- Sao chép nghìn ký tự kaomoji siu cute để chet với bạn bè
+- Sao chép nghìn ký tự kaomoji siu cute để chat chít với bạn bè
 - Dễ sử dụng
 - An toàn
 - Người viết khá đẹp trai :3
